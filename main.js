@@ -93,21 +93,19 @@
 // printLastName(lastName);
 
 // 13.
-// function getCar(carName, carBrand, carCapcity, carColor) {
-//     var car = {};
-//     car.name = carName;
-//     car.brand = carBrand;
-//     car.capcity = carCapcity;
-//     car.color = carColor;
-//     return car;
+// var userColor = prompt("choose color"),
+//   userCompany = prompt("choose car company"),
+//   userCapacity = prompt("choose car capacity");
+
+// function getCarObject(color, company, capacity) {
+//   car = {
+//     color: color,
+//     company: company,
+//     capacity: capacity,
+//   };
+//   document.write(car.color, car.company, car.capacity);
 // }
-// var car_name = prompt("enter car name");
-// var car_brand = prompt("enter car brand");
-// var car_capcity = Number (prompt("enter car capcity"));
-// var car_color = prompt("enter car color");
-// var myCar = getCar(car_name, car_brand, car_capcity, car_color);
-// console.log(myCar);
-// document.write();
+// getCarObject(userColor, userCompany, userCapacity);
 
 ////14
 
